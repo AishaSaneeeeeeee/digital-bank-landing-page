@@ -1,0 +1,221 @@
+.first{
+    background-color: hsl(0, 100%, 100%);
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 86%;
+    margin: auto;
+    /* padding: 15px 0px; */
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 5px;
+}
+ul li .y{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -3%;
+    margin: 26px 0px;
+    padding: 10px 8px;
+    color: hsl(233, 8%, 62%);
+    position: relative;
+}
+ul li .y:hover{
+    color: black;
+}
+ul li .y::after{
+    content: "";
+    position: absolute;
+    background-color: hsl(136, 64%, 51%);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+ul li .y:hover::after{
+    width: 100%;
+}
+.link{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -3%;
+    color: hsl(0, 0%, 98%);
+    background: linear-gradient(30deg, hsl(192, 69%, 51%),hsl(136, 64%, 51%));
+    margin: 26px 0px;
+    padding: 10px 18px;
+    border-radius: 50px;
+}
+
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    margin-bottom: -5rem;
+}
+.left{
+    margin: 110px 140px;
+    /* padding: 13%;
+    margin-left: 150px;
+    width: 320px; */
+}
+h1{
+    color: hsl(233, 26%, 24%);
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 22px;
+    font-weight: 700;
+}
+p{
+    color: hsl(233, 8%, 62%);
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+.right{
+    position: relative;
+    /* width: 300px;
+    height: 200px; */
+    /* background-image: url("./images/bg-intro-desktop.svg");
+
+    background-size: cover;
+    background-position: -50px center;
+    height: 100%;
+
+    /* width: 100%;
+    margin-top: -23%;
+    margin-left: 15%; */
+}
+.image{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 100%;
+    margin-top: -27%;
+    margin-left: 11%;
+}
+.images{
+    width: 150%;
+    margin-top: -32%;
+    
+}
+.second{
+    background-color: hsl(220, 16%, 96%);
+}
+.third{
+    background-color: hsl(0, 100%, 100%);
+}
+.me{
+    padding: 13%;
+}
+h2{
+    font-size: 40px;
+    color: hsl(233, 26%, 24%);
+}
+
+.thub{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+h3{
+    color: hsl(233, 26%, 24%);
+    /* font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px; */
+}
+.para{
+    color: hsl(233, 8%, 62%);
+    /* line-height: 1.8;
+    padding-bottom: 20px;
+    padding-left: 10px; */
+}
+.hub{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    
+}
+.you1{
+    width: 200px;
+    height: 150px;
+}
+.you2{
+    width: 200px;
+    height: 150px;
+}
+.you3{
+    width: 200px;
+    height: 150px;
+}
+.you4{
+    width: 200px;
+    height: 150px;
+}
+
+.aisha{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: hsl(233, 26%, 24%);
+    opacity: 0.8;
+}
+.aisha:hover{
+    color: hsl(192, 69%, 51%);
+}
+.sani{
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.jeni{
+    font-size: 15px;
+    line-height: normal;
+}
+
+.fourth{
+    background-color: hsl(233, 26%, 24%);
+}
+.them{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 86%;
+    margin: auto;
+    padding: 15px 0px
+}
+.dom{
+    gap: 13px;
+}
+.he{
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+}
+.he li{
+    display: block;
+    margin-bottom: 5px;
+}
+.him{
+    font-size: 16px;
+    text-decoration: none;
+    /* margin-top: -3%;
+    margin: 26px 0px;
+    padding: 10px 8px; */
+    color: hsl(0, 100%, 100%);
+    /* position: relative;  */
+}
+.him:hover{
+    color: hsl(192, 69%, 51%);
+}
+.and{
+    color: hsl(233, 8%, 62%);
+}
